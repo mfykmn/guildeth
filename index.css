@@ -35,4 +35,21 @@ header {
     padding-bottom: 33px;
     padding-left: 20px;
     display: inline-block;
-}ß
+}
+
+.body {
+    display: inline-block;
+    padding: 100px 80px;
+}
+
+.body h1 {
+    display: inline-block;
+    font-size: 140px;
+}
+.body h1 span {
+    color: #FF4a4a;
+}
+
+.body h2 {
+    font-size: 60px;
+}
