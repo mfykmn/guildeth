@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "web3": "0.20.0"
+  },
+  "name": "front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
