@@ -12,7 +12,7 @@ module.exports = {
     geth: {
       host: "localhost",
       port: 8545,
-      network_id: 33
+      network_id: 10
     },
     ropsten: {
       provider: function() {
