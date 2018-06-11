@@ -36,3 +36,12 @@ $ truffle compile
 # マイグレーション
 $ truffle migrate --network ropsten
 ```
+
+# Gethローカルネットにデプロイ
+```
+# コードのコンパイル(やらなくてもいいかも？
+$ truffle compile
+
+# マイグレーション
+$ truffle migrate --network geth
+```
