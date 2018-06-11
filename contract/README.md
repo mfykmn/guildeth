@@ -45,3 +45,12 @@ $ truffle compile
 # マイグレーション
 $ truffle migrate --network geth
 ```
+
+# Ganacheにデプロイ
+```
+# コードのコンパイル(やらなくてもいいかも？
+$ truffle compile
+
+# マイグレーション
+$ truffle migrate --network ganache
+```
