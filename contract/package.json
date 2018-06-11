@@ -1,0 +1,10 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^0.0.5",
+    "zeppelin-solidity": "^1.10.0"
+  }
+}
