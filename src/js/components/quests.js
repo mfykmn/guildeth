@@ -1,7 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, {Fragment}  from "react";
 
-import "./quests.css";
+import "../../css/quests.css";
 
 const Quest = () => {
   return (
@@ -15,14 +14,13 @@ const Quest = () => {
 
 const Quests = () => {
     return (
-        <div className="quests">
+        <Fragment>
           <h3 className="section-title">クエスト一覧</h3>
           <Quest/>
           <Quest/>
           <Quest/>
-        </div>
+        </Fragment>
     );
 };
 
-const rootElement = document.getElementById("quests");
-ReactDOM.render(<Quests />, rootElement);
+export default Quests;
