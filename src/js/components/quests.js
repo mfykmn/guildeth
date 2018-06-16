@@ -6,9 +6,10 @@ const Quest = (props) => {
   return (
     <div className="quest">
       <h3>{props.title}</h3>
-      <p>内容　　 : {props.text}</p>
-      <p>対応期限 : {props.deadline}</p>
-      <p>報酬　　 : {props.amount}eth</p>
+      <p>対応期限: {props.deadline}</p>
+      <p>報酬: {props.amount} eth</p>
+
+      <p>{props.text}</p>
     </div>
   );
 };
