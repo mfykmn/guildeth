@@ -1,7 +1,7 @@
 import React, { Fragment} from "react";
 import ReactDOM from "react-dom";
 
-import Heaser from './js/components/header'
+import Header from './js/components/header'
 import Body from './js/components/body'
 import Quests from './js/components/quests'
 
@@ -17,7 +17,7 @@ const questListData = [
 const Root = () => {
   return (
     <Fragment>
-      <Heaser />
+      <Header />
       <Body />
       <Quests data={questListData}/>
     </Fragment>
