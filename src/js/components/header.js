@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <Fragment>
       <header>
-        <div class="top">Guildeth</div>
-        <div class="btn">クエスト発行</div>
-        <div class="btn">マイページ</div>
+        <div className="top">Guildeth</div>
+        <div className="btn">クエスト発行</div>
+        <div className="btn">マイページ</div>
       </header>
     </Fragment>
   );

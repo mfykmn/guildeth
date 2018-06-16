@@ -19,7 +19,7 @@ const Root = () => {
     <Fragment>
       <Header />
       <Body />
-      <Quests data={questListData}/>
+      <Quests data={questListData} />
     </Fragment>
   );
 
